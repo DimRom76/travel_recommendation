@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TravelBloom</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">
+      ✈️ Travel With Us
+    </div>
+    <nav>
+      <ul>
+        <li><a href="./index.html" id="home">Home</a></li>
+        <li><a href="./about_us.html" id="contact">About Us </a></li>
+        <li><a href="./contact_us.html" id="contact">Contact Us </a></li>
+      </ul>
+    </nav>
+    <div class="search-bar">
+      <input type="text" placeholder="Enter a destination or keyword">
+      <button>Search</button>
+      <button>Clear</button>
+    </div>
+  </header>
+
+  <section class="main">
+    <div>
+        <h1>
+            Contact Us
+        </h1>
+        <form id="contactForm">
+            <div class="formLabel">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" required>
+            </div>
+            <div class="formLabel">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" required>
+            </div>
+            <div class="formLabel">
+              <label for="condition">Condition</label>
+              <input type="text" id="condition" name="condition" required>
+            </div>
+            <div class="formLabel">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+        
+            <button type="submit" onclick="thankyou()">Submit</button>
+          </form>
+
+          <script>
+            function thankyou(){
+                alert('Thank you for contacting us!')
+            }
+          </script>
+      </div>
+  </section>
+
+
+
+
+  <!-- Sidebar with social icons -->
+  <aside class="social-links">
+    <ul>
+      <li><a href="#">Twitter</a></li>
+      <li><a href="#">Facebook</a></li>
+      <li><a href="#">Instagram</a></li>
+      <li><a href="#">YouTube</a></li>
+    </ul>
+  </aside>
+</body>
+</html>
