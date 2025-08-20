@@ -65,8 +65,13 @@ nav ul li a {
 }
 
 .main {
+    display: flex;
     margin-top: 5%;
     margin-left: 5%;    
+}
+
+.main div {
+    width: 50%;
 }
 
 .main h1 {
@@ -75,14 +80,14 @@ nav ul li a {
   line-height: 1.2;
 }
 
-.main p {
+.description {
   margin: 20px 0;
   font-size: 16px;
   line-height: 1.5;
   background: rgba(0,0,0,0.4);
   padding: 10px;
   border-radius: 10px;
-  max-width: 50%;
+  max-width: 90%;
 }
 
 .main button {
@@ -95,8 +100,14 @@ nav ul li a {
   font-weight: bold;
 }
 
+
+.contactForm {
+    width: 80%;
+}
+
 .formLabel {
-    margin: 10;
+    margin: 10px;
+    width: 100%;
 }
 
 /* Sidebar social icons */

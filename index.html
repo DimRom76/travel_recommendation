@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>TravelBloom</title>
+  <title>Travel With Us</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -20,9 +20,9 @@
       </ul>
     </nav>
     <div>
-      <input type="text" placeholder="Enter a destination or keyword">
-      <button>Search</button>
-      <button>Clear</button>
+      <input id="conditionInput" type="text" placeholder="Enter a destination or keyword">
+      <button id="searchBtn">Search</button>
+      <button id="clearBtn">Clear</button>
     </div>
   </header>
 
@@ -34,11 +34,14 @@
         DREAM <br>
         DESTINATION
       </h1>
-      <p>
+      <p class="description">
         It encourages exploration of unfamiliar territories, embracing diverse cultures and landscapes, 
         while pursuing the desired destination that captivates the heart and ignites a sense of wonder.
       </p>
       <button>BOOK NOW</button>
+    </div>
+
+    <div id="cards">
     </div>
   </section>
 
@@ -51,5 +54,7 @@
       <li><a href="#">YouTube</a></li>
     </ul>
   </aside>
+
+  <script src="./travel_recommendation.js"></script>
 </body>
 </html>
